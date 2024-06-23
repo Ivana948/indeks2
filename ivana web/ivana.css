@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, #5b289d, #c31f96, #3478af);
+    cursor: url("cursorr.png"), pointer;
+}
+header {
+    background-color: #406fab;
+    color: white;
+    padding: 10px 0;
+    font-family: "Century Gothic";
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: deeppink;
+    cursor: url("cursorr.png"), pointer;
+}
+main {
+    padding: 20px;
+}
+#biography {
+    background-image: url("flower.png");
+    background-repeat: repeat;
+    background-position: 200px;
+}
+#biography p:nth-of-type(1) {
+    width: 450px;
+    background-color:hsla(300, 100%, 90%, 0.5);
+    border: 1px solid black;
+    padding: 10px;
+}
+#biography p:nth-of-type(2) {
+    width: 450px;
+    float: right;
+    background-color:hsla(300, 100%, 90%, 0.5);
+    border: 1px solid black;
+    padding: 10px;
+}
+#biography p:nth-of-type(3) {
+    width: 450px;
+    clear: both;
+    background-color:hsla(300, 100%, 90%, 0.5);
+    border: 1px solid black;
+    padding: 10px;
+}
+#biography p:nth-of-type(4) {
+    width: 400px;
+    float: right;
+    background-color:hsla(300, 100%, 90%, 0.5);
+    border: 1px solid black;
+    padding: 10px;
+}
+#me {
+    height: 300px;
+    position: relative;
+    left: 580px;
+    top: -450px;
+    border-radius: 5px;
+}
+#mee {
+    height: 300px;
+    position: relative;
+    left: 450px;
+    top: -60px;
+    border-radius: 5px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.content1 {
+    width: 600px;
+}
+.content2 {
+    width: 500px;
+    float: right;
+}
+#travel p {
+    width: 500px;
+    text-align: center;
+    margin-left: 450px;
+}
+#spain {
+    height: 150px;
+    position: relative;
+    top: -200px;
+    left: 105px;
+    border-radius: 7px;
+}
+#poland {
+    height: 150px;
+    width: 230px;
+    position: relative;
+    top: -200px;
+    left: 830px;
+    border-radius: 7px;
+}
+#amsterdam {
+    height: 150px;
+    position: relative;
+    left: 90px;
+    width: 230px;
+    border-radius: 7px;
+}
+#greece {
+    height: 150px;
+    position: relative;
+    left: -65px;
+    border-radius: 7px;
+    width: 230px;
+}
+#travel {
+    margin-top: 10px;
+}
+#travel p {
+    border: 2px dashed deeppink;
+    padding: 10px;
+}
+main div:nth-child(3) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+.halfhalf {
+    flex-basis: calc(50% - 10px);
+    background-image: url("flowers.png");
+    background-repeat: repeat-x;
+}
+h2 {
+    background: linear-gradient(to left, #5b289d, #c31f96, #3478af);
+    color: white;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #67279b;
+    color: white;
+    clear: both;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+#movie1, #movie2, #movie3, #movie4 {
+    height: 200px;
+}
+#moviereccomendation ul:nth-of-type(1) {
+    float: left;
+    margin-left: 200px;
+}
+#moviereccomendation ul:nth-of-type(2) {
+    float: right;
+    margin-right: 300px;
+}
+#moviereccomendation {
+    background: white;
+    height: 570px;
+}
+#moviereccomendation p:nth-of-type(1), p:nth-of-type(2) {
+    float: right;
+    width: 200px;
+    margin-left: 20px;
+}
+
+#moviereccomendation p:nth-of-type(3), p:nth-of-type(4) {
+    float: right;
+}
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+footer img {
+    height: 50px;
+}
